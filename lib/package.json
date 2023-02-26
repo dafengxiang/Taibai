@@ -1,0 +1,7 @@
+{
+  "name": "taibai-core",
+  "version": "0.0.1",
+  "description": "taibai core",
+  "main": "./dist/core/index.js",
+  "license": "ISC"
+}
