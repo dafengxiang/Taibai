@@ -1,0 +1,9 @@
+{
+  "name": "Taibai",
+  "version": "1.0.0",
+  "description": "太白，一个企业级BFF框架封装",
+  "main": "index.js",
+  "repository": "https://github.com/dafengxiang/Taibai.git",
+  "author": "dafengxiang <1205679862@qq.com>",
+  "license": "ISC"
+}
