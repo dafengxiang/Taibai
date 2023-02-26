@@ -5,5 +5,16 @@
   "main": "index.js",
   "repository": "https://github.com/dafengxiang/Taibai.git",
   "author": "dafengxiang <1205679862@qq.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon -e ts,ejs --exec ts-node -T ./example/app.ts",
+    "lerna": "npx lerna bootstrap"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "lerna": "^6.5.1",
+    "ts-node": "^10.9.1"
+  }
 }

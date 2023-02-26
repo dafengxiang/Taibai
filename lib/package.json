@@ -3,5 +3,11 @@
   "version": "0.0.1",
   "description": "taibai core",
   "main": "./dist/core/index.js",
-  "license": "ISC"
+  "scripts": {
+    "build": "rm -rf ./dist && npx tsc"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
 }
